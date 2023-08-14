@@ -1,0 +1,190 @@
+.main{
+    width : 1440px;
+   background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+
+}
+#homepage{
+}
+
+#header-desktop{
+    height: 100px;
+    display: flex;
+    /* padding : 30px; */
+    align-items: center;
+    text-align: center;
+    /* background-color: antiquewhite  ; */
+
+}
+.header-desktop__frame47{
+    display: flex;
+    justify-content: space-between; 
+   
+
+}
+.header-desktop__logo{
+    /* padding-left: 130px; */
+    width : 115px;
+    height : 40px;
+    padding-right : 40px;
+    /* background-image: url(/assest/IMG/header/Retangle/Rectangle\ 9.png); */
+}
+.header-desktop__navbar{
+    display: flex;
+    height : 24px;
+    color: var(--color-primary);
+    color : #003459;
+    line-height: 24px;
+}
+.header-desktop__navbar-list{
+    font-size: 16px;
+    font-weight: 700;
+    padding : 8px;
+    margin-right: 48px;
+
+}
+.header-desktop__navbar-item{
+
+
+}
+/*  search */
+.header-desktop__frame46{
+    display: flex;
+
+}
+.header-desktop__search{
+    margin-right: 14px;
+}
+.header-desktop__search-icon{
+    width :20px;
+    height : 20px;
+}
+.header-desktop__search-input{
+    border-radius: 46px;
+    font-size: 14px;
+    width : 280px;
+    height : 44px;
+    outline: none;
+    border:solid #FDFDFD;
+
+    text-align: center;
+    
+
+}
+.header-desktop__btn{
+ 
+    border-radius: 57px;
+    gap: 10px;
+    width: 203px;
+    color: #FDFDFD;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    border: none;
+    margin-right: 14px;
+ 
+    background-color: #003459;
+}
+/* Country money */
+.header-desktop_frame44{
+   
+
+}
+.frame44-list{
+    display: flex;
+    font-size: 16px;
+}
+.frame44-item{
+    color : #003459;
+    padding-right : 4px;
+}
+.frame44-img{
+    width: 21px;
+    height: 21px;
+    padding-right : 6px;
+
+}
+.frame44-icon{
+    color : #003459;
+    border: 2px;
+   
+}
+/*  END NAV HEADER */
+/* BEGIN HERRO BANNER .*/
+#herro-banner{
+    width: 1440px;
+    height : 695px;
+    overflow: hidden;
+}
+.herro-banner__container{
+    margin-left: 107px;
+}
+.herro-banner__container-tittle{
+    color: #003459;
+    padding-top: 80px;
+}
+.herro-banner__container-heading-1{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 68px;
+}
+.herro-banner__container-heading-2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    margin: 4px 0 24px 0;
+}
+.herro-banner__container-decription{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; */
+
+}
+.herro-banner__container-btn__view{
+    /* background: #003459; */
+    color :#003459;
+    /* border: 1.5px solid #003459 */
+    height : 48px;
+
+    border-radius : 57px;
+    width: 161px;
+    border: #003459;
+    border: solid 2px #003459;   
+     margin-right: 20px;
+    
+}
+.herro-banner__container-btn{
+    margin-top: 34px;
+    padding-bottom: 150px;
+}
+.herro-banner__container-btn__view-icon{
+}
+.herro-banner__container-btn__explore{
+    background: #003459;
+    color : #fff;
+    width: 161px;
+    height : 48px;
+    border-radius : 57px;
+    border: solid 2px;
+
+
+}
+
+/* BEGIN HERRO BANNER RIGHT .*/
+
+.herro-banner__container-banner{
+float: right;
+top: 0;
+}
+
+.herro-banner__container-img__dog{
+    background-image: url(/assest/IMG/header/Retangle/Rectangle\ 2.png);
+    
+}
+/* END BANNER */
+
+/*  END HEADING */
