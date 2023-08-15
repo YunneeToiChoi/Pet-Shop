@@ -2,8 +2,32 @@
     --color-primary : #003459;
     --white-color : #fff;
     --sreach-primary : #FDFDFD;
+    --product-img : 264px;
 }   
 *{
     font-family: SVN-Gilroy;
    
+}
+#autogrid{
+    /* margin-left: 86px;
+    margin-right: 86px; */
+    /* padding-right: 86px; */
+}
+.btn{
+    width:  151px;
+    height:44px;
+    top: 78px;;
+    left: 1159px;;
+    padding: 12px 28px 12px 28px;
+    border-radius: 57px;
+    gap: 8px;
+    border: 2px solid #003459;
+    background-color: #fff;
+    color : #003459;
+    font-size: 14px;
+
+    
+}
+.ic{
+  margin-left: 8px;
 }
