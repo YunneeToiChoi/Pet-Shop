@@ -186,7 +186,7 @@ width: 59%;
 
 .herro-banner__container-img__dog{
     background-image: url(/assest/IMG/header/Retangle/Rectangle\ 2.png);
-    
+    margin-top: 27px;
 }
 .header-desktop__frame47{
     background-image: url(/assest/IMG/header/Retangle/Rectangle\ 9.png);
@@ -395,7 +395,7 @@ width: 59%;
 /* /////////////////////////////////////////////////////////////// */
 /*  BEGIN  accessories */
 #category-accessories{
-    height: 1015px;
+    height: 1187px;
     background-color: #FDFDFD;
 
 }
@@ -548,3 +548,76 @@ width: 59%;
 }
 
 /*  END PRODUCT ACCESSORIES */
+
+/* BEGIN BRAND */
+#brand{
+
+    width: 1438px;
+    height: 251px;
+    background-color: var(--background-white);
+}
+.brand-container{
+    padding-top: 40px;
+}
+.brand-header{
+    width: 1178px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.brand-header__tittle-topic:first-child{
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 500;
+}
+.brand-header__tittle-topic:nth-child(2){
+    font-size: 24px;
+    color: var(--color-primary);
+    line-height: 36px;
+    margin-left: 6px;
+    font-weight: 700;
+
+}
+.brand-header__tittle{
+    text-align: center;
+    height: 36px;
+}
+.brand-header__button {
+    width: 201px !important;
+    height: 44px;
+    font-size: 14px;    
+    list-style: 20px;
+    font-weight: 500;
+    color: var(--color-primary);
+    background-color: var(--background-primary);
+}
+.brand-header__button>i{
+    padding-left: 9px;
+}
+.brand-logo{
+    display: flex;
+    width: 1180px;
+    align-items: center;
+    height: 112px;
+    justify-content: space-between;
+    
+}
+.brand-logo-list{
+    width: 88px;
+    height: 64px;
+    gap : 10px;
+    display: flex;
+}
+.brand-logo-list:nth-child(4){
+    
+    margin: 0px 37px 0 70px;
+
+}
+.brand-logo-list:nth-child(7){
+    margin-left: 84px;
+}
+.brand-logo__img:hover{
+    transition: ease .3s;
+    transform: scale(1.1) rotate(3deg);
+}
+/* FINISHED BRAND LOGO */
