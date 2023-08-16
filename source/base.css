@@ -25,7 +25,7 @@
     background-color: #fff;
     color : #003459;
     font-size: 14px;
-
+    cursor: pointer;
     
 }
 .ic{
@@ -42,7 +42,7 @@
     display: flex;
     border-radius: 20px;
     overflow: hidden;
-    
+    width: 1180px;
     justify-self: space-between; 
 }
 .bannerimg{
@@ -52,3 +52,8 @@
     margin-left: 20px; 
     flex: 1;
 }
+.pf{
+    padding-left : 100px;
+}
+
+
