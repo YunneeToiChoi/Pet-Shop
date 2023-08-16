@@ -11,10 +11,14 @@
 #header-desktop{
     height: 100px;
     display: flex;
-    /* padding : 30px; */
+z-index: 1;
     align-items: center;
     text-align: center;
-    /* background-color: antiquewhite  ; */ 
+ 
+    position: fixed;
+    padding : 0 100px 0 86px;
+    background-color: var(--background-primary);
+    box-shadow: 0px 2px 28px -2px #00000014;
 
 
 }
@@ -47,7 +51,9 @@
 .header-desktop__navbar-item{
     color : #003459;
 }
-
+.header-desktop__navbar-item:hover{
+    color: #036ebb;
+}
 /*  search */
 .header-desktop__frame46{
     display: flex;
@@ -119,6 +125,7 @@
 .herro-banner__container-tittle{
     color: #003459;
     padding-top: 44px;
+    margin-top: 100px;
 }
 .herro-banner__container-heading-1{
     font-weight: 800;
@@ -245,6 +252,7 @@ width: 59%;
     transition: ease-out .2s;
     transform : scale(1) rotate(2deg) ;
     cursor: pointer;
+    flex: -1;
 
 }
     
