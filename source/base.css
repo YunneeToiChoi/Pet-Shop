@@ -37,22 +37,23 @@
     background-color: var(--background-white);
     width: 1210px;
     height: 378px;
-    padding-top : 80px;
+    /* padding-top : 80px; */
+
 }
 .bannerbox{
-    background-color: var(--color-primary);
+    width: 1174px;
     display: flex;
     border-radius: 20px;
     overflow: hidden;
-    width: 1180px;
-    justify-self: space-between; 
+    justify-content: space-between; 
+
 }
 .bannerimg{
     width  : 513px;
     height: 342px;
     margin-top: 36px;
     margin-left: 20px; 
-    flex: 1;
+
 }
 .pf{
     padding-left : 100px;
