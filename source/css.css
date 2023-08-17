@@ -115,8 +115,7 @@ z-index: 1;
 /*  END NAV HEADER */
 /* BEGIN HERRO BANNER .*/
 #herro-banner{
-    /* width: 1024px; */
-    height : 611px;
+    height : 682px;
     overflow: hidden;
 }
 
@@ -158,7 +157,7 @@ z-index: 1;
     
 }
 .herro-banner__container-btn{
-    margin-top: 34px;
+    margin-top: 4%;
   
 }
 
