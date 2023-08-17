@@ -6,6 +6,9 @@
     --background-white : #FDFDFD;
     --background-primary : #FCEED5;
     --width-hard : 1180px;
+    --width-card  :380px;
+    --height-card :424px;
+    
 }   
 *{
     font-family: SVN-Gilroy;
@@ -57,6 +60,20 @@
 }
 .pf{
     padding-left : 100px;
+}
+.fixline{
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.scaleimg{
+    transition: ease-out .2s;
+    transform : scale(1) rotate(2deg) ;
+    cursor: pointer;
+    flex: -1;
 }
 
 

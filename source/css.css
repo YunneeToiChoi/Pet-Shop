@@ -143,11 +143,7 @@ z-index: 1;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical; */
+
 
 }
 .herro-banner__container-btn__view{
@@ -266,16 +262,14 @@ width: 59%;
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
+    margin: 0 auto;
+    -webkit-line-clamp: 2;
     display: block;
     display: -webkit-box;
-
-    margin: 0 auto;
-
-
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+
    
 }
 .category-product__tittle:hover{
@@ -467,10 +461,11 @@ width: 59%;
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
+    margin: 0 auto;
+
     display: block;
     display: -webkit-box;
 
-    margin: 0 auto;
 
 
     -webkit-line-clamp: 2;
@@ -695,6 +690,7 @@ width: 59%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 36px;
 }
 
 .pageread-header__introduct>span{
@@ -715,4 +711,82 @@ width: 59%;
 .pageread-header__button>i{
     padding-left: 4px;
 }
-/*  END PAGEREAD HEADER */
+/*  END PAGEREAD HEADER */ 
+/* START CARD BLOG */
+.cardblog-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(var(--width-hard) + 20px);
+}
+.cardblog-box{
+    width: var(--width-card);
+    height: var(--height-card);
+    box-shadow: 0px 4px 28px -2px #00000014;
+    background-color: #fff;
+    gap: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0 20px 20px 0;
+
+}
+.cardblog-img{
+    width: 362px;
+    height: 243px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.cardblog-img:hover{
+    transition: ease-out .2s;
+    transform : scale(1) rotate(2deg) ;
+    cursor: pointer;
+    flex: -1;
+}
+.cardblog-info{
+    margin: 8px;
+
+}
+.cardblog-topic{
+ color:  var(--background-white);
+ width: 89px;
+ height: 20px;
+ background-color: #00A7E7;
+ border-radius: 28px;
+ font-size: 15px;
+ line-height: 16px;
+ padding: 2px 10px;
+ 
+ 
+}
+.cardblog-tittle{
+    font-weight: 700;
+    margin-top: 8px;
+    color : var(--color-primary);
+    font-size: 18px;
+    line-height: 22px;
+    -webkit-line-clamp: 2;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cardblog-tittle:hover{
+    color: var(--color-primary);
+}
+.cardblog-decription{
+    font-weight: 400;
+    -webkit-line-clamp: 3;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    cursor: auto;
+    line-height: 20px;
+    margin-top: 8px;
+}
+.cardblog-container>.cardblog-box:nth-child(2) p{
+
+    -webkit-line-clamp: 4;
+}
