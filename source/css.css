@@ -18,6 +18,27 @@
     background-color: var(--background-primary);
     box-shadow: 0px 2px 28px -2px #00000014;
 }
+.header-vadition{
+position: relative;
+margin-left: 20px;
+font-size: 24px;
+color: var(--color-primary);
+}
+/*  Begin HEADER FORM */
+
+.header-vadition__icon{
+
+}
+.header-vadition__form{
+    position: absolute;    
+    left: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+
+
+/*  END HEADER FORM */
 .header-desktop__frame47{
     display: flex;
     justify-content: space-between; 
@@ -1074,3 +1095,4 @@ width: 59%;
 .footer-bottom__privacy-item:nth-child(1){
     padding-right: 11px;
 }
+
