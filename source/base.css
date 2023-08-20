@@ -30,7 +30,9 @@
   padding-right: 174px;
 }
 
-
+.mb{
+    display: none;
+}
 .open   {
     display: block;
 }
@@ -51,7 +53,7 @@
     
 }
 .ic{
-  margin-left: 8px;
+  /* margin-left: 8px; */
 }
 .bannerlayout{
     background-color: var(--background-white);
@@ -60,13 +62,13 @@
     /* padding-top : 80px; */
 
 }
+
 .bannerbox{
     width: 1174px;
     display: flex;
     border-radius: 20px;
     overflow: hidden;
-    justify-content: space-between; 
-
+    justify-content: space-between;
 }
 .bannerimg{
     width  : 513px;

@@ -1,0 +1,228 @@
+/*  PC */
+@media (min-width : 1024px){ 
+
+}
+/*  MOBILE and TABLET */
+@media (max-width :1023px){
+.header-desktop__navbar,
+.header-desktop__search-input,    
+.header-desktop__btn,
+.header-vadition,
+.category-header-view,
+.frame44-list{
+    display: none;
+}
+}
+/*  TABLET */
+@media ( min-width : 740px) and (max-width : 1023px ) {
+    
+}
+
+/* MOBILE */
+@media (max-width : 414px){
+
+
+    #category,
+
+
+    .banner-pr-box,
+    #herro-banner{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    .main{
+        width: 414px;
+    }
+    /* .category-header,
+    .category-container-product, */
+    /* .banner-pr-box , */
+    #category-accessories,
+    #brand,
+    .relieve ,
+    #pageread,
+    #footer,
+    /* .header-desktop__frame46, */
+    .herro-banner__container-banner{
+        display: none;
+    }
+    .category-container-product{
+        padding-bottom: 16px;
+    }
+    .category-header-view-mb{
+        display: block;
+    }
+    .category-header-view__btn-mb{
+        height: 48px;
+        width: 382px;
+
+    }
+    .category-header-view__icon-mb{
+
+    }
+  
+    .mb{
+        display: block;
+    }
+    #homepage{
+        width: 414px;
+    }
+    #herro-banner{
+        height: 794px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .herro-banner__container-banner{
+        display: none;
+    }
+    .herro-banner__container-banner-mb{
+       display: block;
+       height: 386px;
+    }
+    .herro-banner__container-heading-1{
+        font-size: 46px;
+    }
+    .herro-banner__container-banner{
+        /* display: none; */
+    }
+    .herro-banner__container-img__dog-mb{
+        width: 414px;
+        height: 386px;
+        float: right;
+        background-size: cover;
+        background-image: url(/assest/IMG/header/Retangle/Rectangle\ 2.png)  ;
+    }
+  
+    .banner-pr-info{
+        background-image: none;
+    }
+    .autogrid{
+        padding: 0;
+    }
+    .main {
+        /* padding-left: 16px;
+        padding-right: 16px; */
+        padding-left: 1;
+    }
+    .header-desktop__search-box>i{
+        color: #000;
+        font-size: 20px;
+        background-color: unset;
+        margin-right: -30px;
+    }
+    #header-desktop{
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        width: 414px;
+        text-align: center;
+    }
+    .header-desktop__search-box{
+        width: 0;
+    }
+    .herro-banner__container-heading-2{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .mb-header-menu{
+        display: block;
+    }
+    .header-desktop__logo{
+        padding-right: 0;
+        margin: 0 70px;
+    }
+    .mb-header-menu__bar{
+        align-items: center;
+        display: flex !important;
+        text-align: center;
+        justify-content: center;
+    }
+    .mb-header-menu__bar{
+        width: 32px;
+        height: 32px;
+        display: flex;
+        text-align: c;
+        align-items: center;
+    }
+    /* CATEGORY */ 
+    .category-product{
+        width: 185px;
+        height: 317px;
+
+    }
+    .category-product__img{
+        width: 169px;
+        height: 169px;
+    }
+    .category-product{
+        margin: 6px 0;
+    }
+    .banner-pr-box{
+        width: 382px;
+        height: 640px;
+        border-radius: 20px;
+    }
+    .banner-pr{
+        width: 382px;
+
+        height: 1640px;
+        background-color: unset;
+    }
+    #category{
+        height: 1590px;
+    }
+    .banner-pr__img{
+        display: none;
+    }
+    .banner-pr__img-mb{
+        width: 382px;
+        height: 349px;
+        display: block;
+        background-color: var(--color-primary);
+        /* background-image: url(/assest/IMG/Banner/banner\ retangle.png); */
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    }
+    .bannerimg{
+        margin-left: 0;
+    }
+    .banner-pr-info__tittle:first-child{
+        font-size: 36px;
+    }
+    .banner-pr-info__tittle:nth-child(2){
+        font-size: 24px;
+    }
+    .banner-pr-info__box{
+        padding: 0;
+    }
+    .banner-pr-info__button{
+        height: 285px;
+        /* background-color: var(--background-primary); */
+    }
+    .banner-pr-info{
+        text-align: center;
+        padding-top: 30px;
+        /* background: url(/assest/IMG/Banner/banner\ retangle.png); */
+        /* background-size: cover; */
+        background-color: var(--background-primary );
+    }
+    .banner-pr-info__decription{
+        padding : 0 15px;
+        font-weight: 500;
+    }
+    .bannerimg{
+        margin-top: 0;
+    }
+    .banner-pr-info__button{
+        margin-right: 0;
+        background-color: r;
+    }
+    .banner-pr-info__box{
+        float: left;
+        width: 382px;
+    }
+    .bannerbox{
+        display: block;
+    }
+}
