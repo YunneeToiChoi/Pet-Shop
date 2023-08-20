@@ -12,7 +12,7 @@
     z-index: 1;
     align-items: center;
     text-align: center;
-    width: 1;
+    width: 1180px;
     position: fixed;
     /* padding : 0 100px 0 86px; */
     background-color: var(--background-primary);
@@ -298,9 +298,11 @@ color: var(--color-primary);
 }
 .herro-banner__container-heading-2{
    
-      font-size: 42px;
-      line-height: 60px;
-      margin: 4px 0 24px 0;
+font-size: 41px;
+   
+line-height: 60px;
+   
+margin: 4px 0 24px 0;
 }
 .herro-banner__container-decription{
     font-weight: 500;
@@ -346,6 +348,8 @@ width: 59%;
 .herro-banner__container-img__dog{
     background-image: url(/assest/IMG/header/Retangle/Rectangle\ 2.png);
     margin-top: 27px;
+    background-size: contain;
+    width : 125%;
 }
 .header-desktop__frame47{
     background-image: url(/assest/IMG/header/Retangle/Rectangle\ 9.png);
@@ -358,7 +362,6 @@ width: 59%;
 #category{
     height: 1015px;
     background-color: #FDFDFD;
-
 }
 
 .category-header{
@@ -502,11 +505,8 @@ width: 59%;
 
 .banner-pr-info{
     background-image: url(/assest/IMG/Banner/banner\ retangle.png);
-    flex: 1;
- 
+    /* flex: 1; */
     text-align: right;
-
-
 }
 
 .banner-pr-info__tittle{
@@ -528,15 +528,18 @@ width: 59%;
 
 .banner-pr-info__decription{
 
+font-size: 16px;
 
-    font-size : 14px;
-    line-height: 22px;
-    margin-bottom: 24px;
-    font-weight: 500;
+line-height: 22px;
 
+margin-bottom: 24px;
+
+font-weight: 500;
 }
 .banner-pr-info__button{
-    margin-right: 76px; 
+    /* margin-right: 76px; */
+    text-align: center;
+    height: 1;
 }
 .banner-pr-info__btn:first-child{
     background-color: #FCEED5;
@@ -750,7 +753,7 @@ width: 59%;
     background-color: var(--background-primary);
 }
 .brand-header__button>i{
-    padding-left: 9px;
+    padding-left: 7px;
 }
 .brand-logo{
     display: flex;
@@ -794,11 +797,9 @@ width: 59%;
 .relieve-info{
     /* padding : 30px 0 56px 30px; */
     padding-top: 84px;
-   padding-left: 100px; 
-
+    padding-left: 100px;
     background-image: url(/assest/IMG/relieve/Rectangle\ 9.png) ;
     background-position: right;
-
 }
 .relieve-info__topic{
     font-weight: 800;
@@ -1096,3 +1097,14 @@ width: 59%;
     padding-right: 11px;
 }
 
+/*  RESPON */
+.category-header-view-mb{
+    display: none;
+}
+.banner-pr__img-mb{
+    display: none;
+}
+.mb-header-menu{
+    display: none;
+}
+    
