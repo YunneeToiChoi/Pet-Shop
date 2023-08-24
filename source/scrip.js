@@ -10,4 +10,17 @@ for ( var i =0 ; i < removehistory.length;i++ ){
         thisforcushistory.classList.remove('open')
     })
 }
+ // menu mobile
+ const menu = document.querySelector('.mb-header-menu__bar')
+ const navMenuMobile = document.querySelector('.mb-header-menu__container')
+ menu.addEventListener('click', () => {
+    navMenuMobile.classList.add('open')
+
+ })
+ const navMenuBack = document.querySelector('.mb-header-menu__back')
+
+ navMenuBack.addEventListener('click',()=>{
+    navMenuMobile.classList.remove('open')
+
+ })
 

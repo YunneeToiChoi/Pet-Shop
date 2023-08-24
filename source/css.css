@@ -1,6 +1,7 @@
 .main{
-    width : 1440px;
+    width : 1290px;
 }
+
 #homepage{
     background-color : var(--background-primary);
     border-radius: 40px 40px 0px 0px;
@@ -94,14 +95,14 @@ color: var(--color-primary);
     top: 72%;
     text-align: left;
     width: 100%;
-    height: calc(100% + 138px);  
+    height: 1;
+    height: calc(100% + 145px);
     /* border-radius: 20px; */
     background-color: var(--background-white);
     --box-shadow : 4px 4px 28px -2px #00000014;
     border-radius: 4px;
     display: none;
-
-    
+    overflow: hidden;
 }
 .header-history__list:first-child{
    
@@ -220,10 +221,11 @@ color: var(--color-primary);
     top: 72%;
     text-align: left;
     width: 100%;
-    height: calc(100% + 80px);  
+    height: calc(100% + 88px);
     /* border-radius: 20px; */
     background-color: var(--background-white);
     display: none;
+    overflow: hidden;
 }
 .header-desktop__search-box{
     display: flex;
@@ -348,7 +350,7 @@ width: 59%;
 .herro-banner__container-img__dog{
     background-image: url(/assest/IMG/header/Retangle/Rectangle\ 2.png);
     margin-top: 27px;
-    background-size: contain;
+    background-size: cover;
     width : 125%;
 }
 .header-desktop__frame47{
@@ -379,7 +381,7 @@ width: 59%;
     margin : 2px 0 36px 0;
     color : #003459;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 36px;
 }
 /*  END CATEGORY HEADER */
@@ -500,7 +502,7 @@ width: 59%;
     width: 68%;
     float: right;
     padding-top: 42px;
-    padding-right: 100px;
+    padding-right: 101px;
 }
 
 .banner-pr-info{
@@ -880,7 +882,7 @@ font-weight: 500;
 .cardblog-container{
     display: flex;
     flex-wrap: wrap;
-    width: calc(var(--width-hard) + 20px);
+    /* width: calc(var(--width-hard) + 20px); */
 }
 .cardblog-box{
     width: var(--width-card);
@@ -890,8 +892,11 @@ font-weight: 500;
     gap: 10px;
     border-radius: 12px;
     cursor: pointer;
-    margin: 0 20px 20px 0;
+    margin: 0 32px 20px 0;
 
+}
+.cardblog-box:last-child{
+    margin-right: 0px;
 }
 .cardblog-img{
     width: 362px;
@@ -959,16 +964,17 @@ font-weight: 500;
 /* BEGIN FOOTER  */
 #footer{
 
-    height: 440px;
+    width: 1265px;
+    height: 480px;
     border-radius: 40px 40px 0px 0px;
     background-color:var(--background-primary);
 }
 .footer-connect{
     width: var(--width-hard);
     height: 240px;
-    padding: 80px 0 40px 0;    
+    width: 9;
+    padding: 80px 0 40px 0;
     border-bottom: 1px solid #CCD1D2;
- 
 }
 .footer-subcribe{
     height: 136px;
@@ -1023,11 +1029,9 @@ font-weight: 500;
 .footer-contact{
     display: flex;
     justify-content: space-between;
-    height: 24px;
+    height: 25px;
     margin-bottom: 40px;
     align-items: center;
-
-    
 }
 .footer-contact__nav{
     font-size: 16px;
@@ -1067,7 +1071,7 @@ font-weight: 500;
 /*  BEGIN LAYOUT 2 */
 .footer-bottom{
     height: 40px;
-    width: var(--width-hard);
+    width: 1000px;
     margin: 40px 0 40px 0;
     display: flex;
     justify-content: space-between;
@@ -1085,7 +1089,7 @@ font-weight: 500;
 }
 .footer-bottom__privacy{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 .footer-bottom__privacy-item{
     color:  #667479;
@@ -1107,4 +1111,12 @@ font-weight: 500;
 .mb-header-menu{
     display: none;
 }
-    
+.pageread-header__button-mb{
+    display: none;
+}
+.footer-bottom__logo-mb{
+    display: none;
+}
+.footer-bottom__coppyright-mb{
+    display: none;
+}
