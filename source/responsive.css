@@ -1,6 +1,63 @@
 /*  PC */
 @media (min-width : 1024px){ 
+    .main{
+        width: 1290px;
+        background-color: #fdfdfd;
+    }
+    .autogrid{
+        padding-right: 0;
+    }
+    body{
+        /* background-color: #FCEED5; */
+        width: 1358px;
+    }
+    #header-desktop{
+        justify-content: space-between;
+        width: 1290px;
+        padding-right: 0;
+    }
+    .frame44-list{
+        align-items: center;    
+        /* margin: 20px; */
+        font-size: 18px;
+    }
+    .header-desktop__frame46{
+        align-items: center;
+        margin-right: 90px;
 
+    }
+    .category-product{
+        width: 280px;
+    }
+    .category-accessories-product{
+        width: 280px;
+
+    }
+    #herro-banner{
+        /* width: 1290px; */
+    
+    }
+    #homepage{
+        width: 1350px;
+    }
+    .banner-pr{
+        width: 100%;
+    } 
+    .banner-pr-info{
+        width: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .brand-header{
+        width: 1204px;
+    }
+    #footer{
+        width: 1265px;
+        height: 480px;
+    }
+    
+ 
 }
 /*  MOBILE and TABLET */
 @media (max-width :1023px){

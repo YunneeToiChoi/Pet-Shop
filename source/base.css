@@ -5,12 +5,18 @@
     --product-img : 264px;
     --background-white : #FDFDFD;
     --background-primary : #FCEED5;
-    --width-hard : 1180px;
+    --width-hard : 1204px;
     --width-card  :380px;
     --height-card :424px;
     --border-color : #CCD1D2;
     --black-color: #000;
     --box-shadow : 0px 4px 28px -2px #00000014;
+    
+}   
+html, body {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+    
 }   
 @font-face {
     font-family: 'Gilroy';
@@ -27,7 +33,7 @@
 }
 .autogrid{
   padding-left: 86px;
-  padding-right: 174px;
+  padding-right: 86px;
 }
 
 .mb{
@@ -64,7 +70,7 @@
 }
 
 .bannerbox{
-    width: 1174px;
+    width: 1210px;
     display: flex;
     border-radius: 20px;
     overflow: hidden;
