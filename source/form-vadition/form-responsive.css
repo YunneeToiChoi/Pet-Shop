@@ -43,6 +43,14 @@
         font-size: 14px;
     }
 }
+/* TABLET AND MOBILE */
+@media (max-width : 1023px)
+{
+    .from-head__link{
+        text-decoration: underline;
+    }
+
+}
 /* Mobile */
 
 @media (max-width: 414px){
