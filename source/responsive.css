@@ -13,6 +13,7 @@
     }
     #header-desktop{
         justify-content: space-between;
+        
         width: 1290px;
         padding-right: 0;
     }
@@ -60,18 +61,234 @@
 }
 /*  MOBILE and TABLET */
 @media (max-width :1023px){
-.header-desktop__navbar,
-.header-desktop__search-input,    
-.header-desktop__btn,
-.header-vadition,
-.category-header-view,
-.frame44-list{
+  
+   .header-desktop__navbar{
     display: none;
+   }
+   .mb-header-menu{
+    position: relative;
 }
+
+.mb-header-menu__container{
+    position: absolute;
+    width: 350px;
+    background-color: #fdfdfd;
+    height: 800px;
+    top: -22px;
+    float: left;
+    display: none;
+    box-shadow: 0px 4px 28px -2px #00000014;
+}
+.open{
+    display: block;
+}
+.mb-header-menu__list{
+    padding : 10px 0;
+}
+.mb-header-menu__item{
+    color: var(--color-primary);
+    font-size: 24px;
+    line-height: 1.4rem;
+}
+.mb-header-menu__back{
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-top: 20px;
+}   
+.mb-header__vaditation{
+
+}
+.mb-header-menu__nav{
+    margin-top: 30px;
+    border-top: 1px solid #667479;
+
+}
+.mb-header__vaditation-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+
+}
+.mb-header__vaditation-box{
+display: flex;
+margin-top: 20px;
+justify-content: space-between;
+}
+
 }
 /*  TABLET */
 @media ( min-width : 740px) and (max-width : 1023px ) {
+    .relieve-img,
+    .herro-banner__container-banner-mb,
+    .mb-header-menu__container,
+    .header-vadition,
+    .header-desktop__logo,
+    .banner-pr__img,
+    .herro-banner__container-banner{
+        display: none   ;
+    }
+    .herro-banner__container-banner{
+        display: block;
+    }
+    .main{
+        width: 768px;
+    }
+    .autogrid{
+        padding : 0 16px;
+    }
+    #header-desktop{
+        width: 740px;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+
+        text-align: center;
+        
+    }
+    .header-desktop__frame46{
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .frame44-list{
+        align-items: center;    
+        font-size: 18px;
+    }
+   
+    .mb-header-menu{
+        display: block;
+        position: relative;
+    }
     
+    #category{
+        height: 1900px;
+    }
+    .banner-pr-box{
+        width: 740px;
+    }
+    .banner-pr {
+        width: 740px;
+
+    }
+    
+    .banner-pr-info{
+        background: unset;
+        text-align: center;
+        height: 330px;
+    }
+    .banner-pr{
+        background-color: var(--background-primary);
+    }
+    #category-accessories{
+        height: 2200px;
+    }
+    .brand-header,
+    .brand-header,
+    .brand-logo
+    {
+        width: 740px;
+    }
+    .brand-logo-list:nth-child(2),
+    .brand-logo-list:nth-child(3),
+    .brand-logo-list:nth-child(6){
+        display: none;
+    }
+    .brand-logo__img{
+        width: 89px;
+    }
+    .bannerbox{
+        width: 740px;
+    }
+    .relieve-info{
+        padding-left: 200px;
+    }
+    #pageread{
+        width: 740px;
+        height : 1000px;
+    }
+    .cardblog-box{
+        width: 340px;
+        margin: 0 25px 20px 0;
+       
+    }
+      .cardblog-box:last-child{
+        width: 96%;
+        height: 300px;
+       
+    }
+    .cardblog-img{
+        width: 96%;
+
+    }
+    #footer{
+        height: 1000px;
+        width: 740px;
+        padding: 14px;
+    }
+    .footer-connect{
+        width: 740px;
+
+    }
+    .footer-subcribe{
+        height: 200px;
+    }
+    .footer-subcribe{
+        display: block;
+    }
+    .footer-subcribe__tittle{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-subcribe__list{
+        width: 700px;
+        margin: 16px;
+        padding: 0;
+    }
+    .footer-subcribe__input{
+        margin-left: 10px;
+    }
+    .footer-subcribe__tittle{
+        margin: 0;
+        padding: 16px;
+    }
+    .footer-contact{
+        display: block;
+    }
+   
+    .footer-contact__nav{
+       display: none;
+
+    }
+    .footer-contact__social{
+        justify-content: center;
+        display: flex;
+        margin-left: 100px;
+
+    }
+    .footer-bottom{
+        width: 100%;
+
+    }
+    .footer-bottom__privacy{
+        margin-right: 25px;
+
+    }
+    .mb-header-menu__container{
+        position: absolute;
+        display: block;
+    }
+    .mb-header-menu__container{
+        top: -30px;
+        left: -16px;
+        display: none;
+    }
+    .open{
+        display: block;
+    }
+
+
 }
 
 /* MOBILE */
@@ -79,6 +296,13 @@
     .main{
         width: 414px;
     }
+     .header-desktop__navbar,
+    .header-desktop__search-input,    
+    .header-desktop__btn,
+    .header-vadition,
+    .category-header-view,
+    .frame44-list,
+   .header-desktop__navbar,
     #category-accessories,
     #brand,
     .relieve ,
@@ -99,10 +323,7 @@
         width: 382px;
 
     }
-    .category-header-view__icon-mb{
-
-    }
-  
+    
     .mb{
         display: block;
     }
@@ -283,7 +504,7 @@
         width: 382px;
     }
     #footer{
-        width: 100%;
+        width: calc(100% + 14px);
         margin-top: 40px;
         height: 700px;
     }
