@@ -84,7 +84,6 @@
 .from-head{
     height: 48px;
     padding: 22px 30px;
-    background-color: aliceblue;
     font-size: 24px;
     align-items: center;
     display: flex;
@@ -215,4 +214,24 @@
 }
 .footer-bottom__privacy-item:nth-child(1){
     padding-right: 11px;
+}
+.from-box__header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+}
+.from-head__link{
+    color: #003459;
+    height: 48px;
+    padding: 22px 30px;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 700;
+}
+.from-head__link:hover{
+    text-decoration: underline;
 }

@@ -6,24 +6,76 @@ var cfpasswordElement =formElement.querySelector('.form-input__confirmpassword')
 
 var list = [nameElement,emailElement,passwordElement,cfpasswordElement]
 
+ //  sign up
+ function signup(){
+    // e.preventDefault
+    var name = nameElement.value;
+    var email = emailElement.value;
+    var password = passwordElement.value;
+    var cfpassword = cfpasswordElement.value;
+    var user = {
+        name : name,
+        email : email,
+        password :password,
+        cfpassword : cfpassword
+    }
+    var json = JSON.stringify(user);
+    localStorage.setItem(user,json)
+//    alert("Dang Ky Thanh Cong")
+}
+function login(){
+    // e.preventDefault
+    var name = nameElement.value;
+    var email = emailElement.value;
+    var password = passwordElement.value;
+    var cfpassword = cfpasswordElement.value;
+    var user = {
+        name : name,
+        email : email,
+        password :password,
+        cfpassword : cfpassword
+    }
+    var json = JSON.stringify(user);
+    localStorage.getItem(user)
+    var data = JSON.parse(user)
+    if ( user == null){
+        alert("Thông Tin Đăng Nhập Không Chính Xác")
+    }
+    else if(name==data.name&&email==data.email&&password==data.password){
+
+        alert("Đăng Nhập Thành Công")
+        window.location.href="index.html"
+    }
+    else{
+        alert("Đăng Nhập Thất Bại")
+    }
+}
 formElement.addEventListener('submit',(e)=>{  // bo su kien submit
     e.preventDefault()
-    checkEmtyError(list)
+  var isEmptyError =  checkEmtyError(list)
+  var isEmailError =   checkEmailError(emailElement)
+  var isLengthNameError =   checkLength(nameElement,3,10)
+  var isLengthPasswordError = checkLength(passwordElement,6,10)
+  var isLengthCfPasswordError= checkMatch(passwordElement,cfpasswordElement)
 
-    checkEmailError(emailElement)
-    checkLength(nameElement,3,10)
-    checkLength(passwordElement,6,10)
-
-    checkMatch(passwordElement,cfpasswordElement)
-
-
+  signup()
+  login()
+  if (isEmptyError||isEmailError||isLengthNameError||isLengthPasswordError||isLengthCfPasswordError){
+    window.location.href="login.html"
+    
+  }
+  else{
+    window.location.href="login.html"
+ 
+    //   call api signup()
+  }
+   
 })
 function showError(input, messages){
     var parent = input.parentElement;
     var span = parent.querySelector('span')
     span.classList.add('active')
     span.innerText = messages;
-    
 }
 function showSuccess(input){
     var parent = input.parentElement;
@@ -44,6 +96,7 @@ function checkEmtyError(listInput){ // kiem tra da nhap chua
            return  showSuccess(input)
         }
     } )
+
 }
 
 
@@ -60,6 +113,7 @@ function checkEmailError (input){  //// ktra email error
     else{
         return showSuccess(input)
     }
+
 }
  ////////////////////
  function checkLength(input,min,max) // check chieu dai ki tu
@@ -100,5 +154,5 @@ function checkMatch(input,cfinput){
     {
        return showSuccess(cfinput)
     }
-    
+   
 }
