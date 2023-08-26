@@ -18,6 +18,11 @@
     font-family: 'Gilroy';
     
 }
+/* html, body {
+    max-width: 100%; 
+    overflow-x: hidden; 
+    
+}    */
 .autogrid{
     padding-left: 86px;
     padding-right: 174px;
@@ -37,7 +42,7 @@
     align-items: center;
 }
 .header-img{
-    padding-right: 70px;
+    /* padding-right: 70px; */
     width: 115px;
     height: 40px;
 }

@@ -1,0 +1,88 @@
+/*  PC */
+@media (min-width : 1024px){
+
+}
+/*  Tablet */
+@media ( min-width : 740px) and (max-width : 1023px ){
+    .form-or{
+        display: none;
+    }
+    .main{
+        width: 768px;
+    }
+    .header-container{
+        width: 758px;
+
+    }
+    .autogrid{
+        padding : 0 16px
+    }
+    .form-frame-4{
+        width: 70%;
+    }
+    .form-social__button{
+        width: 103%;
+    }
+    .form-social{
+        display: block;
+        margin-top: 20px;
+
+    }
+    #footer{
+        height: 500px;
+    }
+    .form-container{
+        width: 768px;
+
+    }
+    .footer-bottom__logo{
+        padding: 0 20px 0 0;
+        width: 100px;
+    }
+    .form-box__info>input{
+        font-size: 14px;
+    }
+}
+/* Mobile */
+
+@media (max-width: 414px){
+    .form-or{
+        display: none;
+    }
+    .main{
+        width: 414px;
+    }
+    .header-container{
+        width: 380px;
+    }
+    .autogrid{
+        padding : 0 16px
+    }
+    .form-frame-4{
+        width: 70%;
+    }
+    .form-social__button{
+        width: 103%;
+    }
+    .form-social{
+        display: block;
+        margin-top: 20px;
+    }
+    #footer{
+        height: 100px;
+    }
+    .form-container{
+        width:414px;
+
+    }
+    .footer-bottom__logo{
+        padding: 0 20px 0 0;
+        width: 100px;
+    }
+    .form-box__info>input{
+        font-size: 14px;
+    }
+    .header-img{
+        padding: 0;
+    }
+}
