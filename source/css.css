@@ -464,6 +464,9 @@ width: 59%;
 .category-product__price:hover{
     color : red;
 }
+.category-product__price{
+    color : #000;
+}
 .category-product__particularity-info>p{
     font-weight: 700;
     padding-left: 6px;

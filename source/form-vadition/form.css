@@ -113,7 +113,9 @@
     text-align: center;
     width: 100%;
 }
-
+.form-box__info>input{
+    padding : 0 0 0 10px;
+}
 .form-input__username{
 
 }
@@ -181,7 +183,7 @@
     height: 20px;
     display: block;
     font-size: 24px;
-    padding : 0 20px 0 10px;
+    padding : 0 10px 0 10px;
 }
 .footer-bottom{
     height: 120px;
